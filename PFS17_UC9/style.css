@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,12 +27,64 @@ header{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: "Roboto";
 }
+
 .menu{
     width: 700px;
     display: flex;
     justify-content: space-between;
 }
 .banner{
+    height: 602px;
+    background-image: url(img/Imagem\ Banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.conteudo-banner h1{
+    color: white;
+    font-family: "titillium web";
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 25px;
+    border-radius: 15px;
+    height: 62px;
+    width: 257px;
+    text-align: center;
+}
+
+.conteudo-banner{
+    width: 497px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-jogos{
+    background-image: url(img/Rectangle\ 3.svg);
 }
