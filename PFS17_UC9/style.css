@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -35,13 +36,16 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .banner{
     height: 602px;
-    background-image: url(img/Imagem\ Banner.svg);
+    width: 100%;
+    background-image: url(img/Imagem\ Banner.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+    }
 
 .conteudo-banner h1{
     color: white;
@@ -80,11 +84,21 @@ header{
 
 .posicionamento-banner{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
 
-.conteudo-jogos{
-    background-image: url(img/Rectangle\ 3.svg);
+.jogos{
+background-color: black;
+height: 110px;
+}
+
+.posicionamento-jogos{
+    height: 100%;
+    width: auto;    
+}
+
+.container{
+    max-width: 1200px;
 }
